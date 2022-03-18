@@ -1,0 +1,156 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* logo_re头部 :start */
+.logo_re{
+    height: 84px;
+    border-bottom: 2px solid #b1191a;
+}
+.logo_re div a img{
+    margin-left: 5px;
+    margin-top: 15px;
+}
+/* logo_re头部 :end */
+/* re_area注册 :start */
+.re_area {
+    height: 522px;
+    margin-top: 22px;
+    border: 1px solid #dddddd;
+}
+.re_area .re_h{
+    height: 42px;
+    background-color: #ececec;
+    border-bottom: 1px solid #dddddd;
+    line-height: 41px;
+}
+.re_h h3{
+    float: left;
+    margin-left: 10px;
+    color: #333;
+    font-size: 18px;
+    font-weight: normal;
+}
+.re_h a{
+    float: right;
+    margin-right: 10px;
+    color: #333;
+    font-size: 14px;
+}
+.re_h a span{
+    color: #c81623;
+}
+.re_form{
+    width: 550px;
+    height: 370px;
+    margin: 54px auto;
+}
+.re_form ul li{
+    margin-top: 20px;
+}
+.re_form ul li input{
+    height: 37px;
+    width: 240px;
+    border: 1px solid #999;
+    padding-left: 5px;
+}
+.re_form ul li label{
+    font-size: 14px;
+    color: #000;
+}
+.re_form ul li span{
+    color: #df3033;
+}
+.re_form ul .shouji{
+    margin-left: 30px;
+}
+.re_form ul .denglu,
+.queren{
+    margin-left: 16px;
+}
+.re_form ul .duanxin{
+    margin-left: 2px;
+}
+.error,
+.right{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/矩形8.png) no-repeat;
+    vertical-align: middle;
+    margin: -2px 5px 0 10px;
+}
+.right{
+    background: url(../images/对勾1.png) no-repeat;
+}
+.safe{
+    margin-left: 165px;
+}
+.safe p{
+    float: left;
+    color: #999;
+}
+.re_form .safe div span{
+    color: white;
+    padding: 0 11px;
+    margin: 0 1px;
+}
+.re_form .safe span:first-child{
+    background-color: red;
+    margin-left: 5px;
+}
+.safe span:nth-child(2){
+    background-color: green;
+}
+.safe span:last-child{
+    background-color: orange;
+}
+.re_form ul .agree input{
+    width: 16px;
+    height: 16px;
+    vertical-align:top;
+    margin-left: 85px;
+}
+.re_form ul .agree{
+    margin-top: 40px;
+}
+.re_form ul .agree label{
+    font-size: 12px;
+    margin-left: 12px;
+}
+.re_form ul .agree a{
+    color: #1ba1e6;
+}
+.re_form ul .finish{
+    width: 200px;
+    height: 35px;
+    background-color: #c81623;
+    margin-left: 95px;
+    margin-top: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+.re_form ul .finish h3{
+    font-weight: normal;
+    color: white;
+}
+/* re_area注册 :end */
+/* re_footer底部 :start */
+.footer{
+    height: 120px;
+    background-color: #f5f5f5;
+}
+.mod_copyright{
+    text-align: center;
+    overflow: hidden;
+}
+.mod_copyright div:first-child{
+margin-top: 20px;
+}
+.mod_copyright div:first-child a{
+    padding: 0 12px;
+    }
+.mod_copyright div:last-child{
+margin-top: 15px;
+}
+/* re_footer底部 :end */

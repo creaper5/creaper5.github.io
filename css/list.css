@@ -1,0 +1,138 @@
+/* nav导航 start */
+.header .sk{
+    position: absolute;
+    left: 185px;
+    top: 40px;
+}
+.nav .sk_list{
+    float: left;
+    height: 45px;
+    width: 366px;
+    line-height: 45px;
+}
+.nav .sk_list ul li a{
+    float: left;
+    font-size: 16px;
+    color: black;
+    padding: 0 29px;
+}
+.nav .sk_con{
+    float: left;
+    height: 45px;
+    width: 834px;
+    line-height: 45px;
+}
+.nav .sk_con ul li a{
+    float: left;
+    font-size: 14px;
+    padding: 0 23px;
+}
+.nav .sk_con ul li:last-child a::after{
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.nav .sk_con ul li:nth-child(2) a{
+    color: #b1191a;
+}
+/* nav导航 end */
+/* sk_main主体 start */
+.sk_main .sk_hd{
+height: 120px;
+margin-bottom: 27px;
+}
+.sk_bd{
+    margin-bottom: 200px;
+}
+.sk_bd ul li{
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 13.3px;
+}
+.sk_bd ul li:nth-child(4n){
+    margin-right: 0;
+}
+.sk_bd .sk_bd1 img{
+    width: 100%;
+}
+.sk_bd .sk_bd2{
+    font-size: 14px;
+    font-family: '宋体';
+    margin-left: 10px;
+}
+.sk_bd .sk_bd3 p{
+    margin-top: 7px;
+    font-size: 22px;
+    color: #e60012;
+}
+.sk_bd .sk_bd3 p::before{
+    margin-left: 10px;
+    content: '¥';
+    font-size: 14px;
+    color: #e60012;
+}
+.sk_bd .sk_bd3 p::after{
+    font-size: 14px;
+    color: #a4a4a4;
+    content: '￥6988';
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+.sk_bd .sk_bd4{
+    position: relative;
+    height: 14px;
+    width: 134px;
+    border: 1px solid #ed282e;
+    border-radius: 7px;
+    margin-left: 78px;
+    margin-top: 7px;
+}
+.sk_bd .sk_bd4 div{
+    height: 12px;
+    width: 87%;
+    background-color: #ed282e;
+    border-radius: 7px 0 0 7px;
+}
+.sk_bd .sk_bd4::before{
+    position: absolute;
+    content: '已售87%';
+    font-size: 14px;
+    font-family: '宋体';
+    line-height: 12px;
+    left: -60px;
+}
+.sk_bd .sk_bd4 div::after{
+    position: absolute;
+    content: '剩余29件';
+    font-size: 14px;
+    font-family: '宋体';
+    line-height: 12px;
+    right: -70px;
+}
+.sk_bd .sk_bd5{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: #b1191a;
+    margin-top: 10px;
+}
+.sk_bd .sk_bd5 p{
+    font: 20px/50px '宋体';
+    color: white;
+    text-align: center;
+}
+/* sk_main主体 end */
+/* sk_express快速导航栏 start */
+.sk_express{
+    position: fixed;
+    left: 50%;
+    margin-left: 610px;
+    margin-top: 300px;
+    width: 70px;
+    height: 150px;
+}
+.sk_express a img{
+    width: 100%;
+    margin-bottom: 5px;
+}
+/* sk_express快速导航栏 end */
